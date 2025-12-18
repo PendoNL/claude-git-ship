@@ -5,26 +5,27 @@ A Claude Code plugin that streamlines your git workflow by staging all changes, 
 ## Installation
 
 ```
-/plugin install github:PendoNL/claude-git-ship
+/plugin marketplace add PendoNL/claude-git-ship
+/plugin install git-ship@PendoNL
 ```
 
 ## Usage
 
 ```
-/ship <branch>
+/git-ship:ship <branch>
 ```
 
 ### Examples
 
 ```
-/ship main
-/ship develop
-/ship feature/new-login
+/git-ship:ship main
+/git-ship:ship develop
+/git-ship:ship feature/new-login
 ```
 
 ## What It Does
 
-When you run `/ship <branch>`, the plugin:
+When you run `/git-ship:ship <branch>`, the plugin:
 
 1. **Checks for changes** — Runs `git status` to see if there's anything to commit
 2. **Stages everything** — Runs `git add -A` to stage all changes
