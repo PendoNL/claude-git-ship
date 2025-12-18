@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "git-ship",
-      "source": ".",
+      "source": "./",
       "description": "Stage all changes, generate a commit message from the diff, and push to a branch"
     }
   ]
