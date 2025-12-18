@@ -1,0 +1,12 @@
+{
+  "name": "git-ship",
+  "version": "1.0.0",
+  "description": "Streamline your git workflow by staging all changes, generating an AI-powered commit message based on the diff, and pushing to a branch — all in one command.",
+  "author": {
+    "name": "Joshua de Gier <pendo.nl>"
+  },
+  "license": "MIT",
+  "keywords": ["git", "commit", "workflow", "automation", "productivity"],
+  "category": "productivity",
+  "commands": "commands"
+}
